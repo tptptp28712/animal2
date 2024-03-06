@@ -13,28 +13,34 @@ public class animal2 {
           System.out.println("動物名："+tokens[0]);
           System.out.println("体長："+tokens[1]+"m");
           System.out.println("速度："+tokens[2]+"km/h");
+          scanner.close();
           switch(tokens[0]){
               // 一致したら学名出力
           case "ライオン":
           System.out.println("学名：パンテラ レオ");
           System.out.println("");
             break;
+            
           case "ゾウ":
           System.out.println("学名：ロキソドンタ・サイクロティス");
           System.out.println("");
             break;
+            
           case "パンダ":
           System.out.println("学名：アイルロポダ・メラノレウカ");
           System.out.println("");
             break;
+            
           case "チンパンジー":
           System.out.println("学名：パン・トゥログロディテス");
           System.out.println("");
             break;
+            
           case "シマウマ":
           System.out.println("学名：チャップマンシマウマ");
           System.out.println("");
             break;
+            
             //不一致で学名不明
           default:
           System.out.println("学名：不明");
